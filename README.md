@@ -9,6 +9,6 @@ https://ollama.com/download/OllamaSetup.exe<br>
 ollama run llama3.2<br>
 
 3. Open the terminal on your device and run the following command to download the needed python packages:<br>
-pip install beautifulsoup4 requests
+pip install beautifulsoup4 requests ollama
 
 
