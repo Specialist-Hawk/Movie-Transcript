@@ -1,10 +1,14 @@
 # Movie-Transcript
-A simple python script that summarizes the plot a given movie using AI. The URL of the movie provided should be from the https://subslikescript.com/ database.
+A simple python script that summarizes the plot a given movie using AI. The script works by using Meta's llama3.2 AI through Ollama. It scrapes the website of the provided url and returns the summary of the movie plot.
 
-# Required Packages
-The required python packages that this script needs are as follows:
-bs4
-requests
+# Required Packages & Downloading Ollama
+Download the Ollama through the link:
+https://ollama.com/download/OllamaSetup.exe
 
-# How it works
-The script works by using Meta's llama3.2 AI through Ollama. It scrapes the website of the provided url and returns the summary of the movie plot.
+Run the following command on your command prompt once the Ollama is installed and running in the system tray:
+ollama run llama3.2
+
+Open the terminal on your device and run the following command to download the needed python packages:
+pip install beautifulsoup4 requests
+
+
